@@ -5,7 +5,6 @@ import requests, json
 from Clock import *
 from Weather import *
 from Color import *
-from News import *
 class MainWindow(QMainWindow):
     def __init__(self,*args, **kwargs):
         super(MainWindow, self).__init__(*args, **kwargs)
